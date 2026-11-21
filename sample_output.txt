@@ -1,0 +1,16 @@
+Total samples: 569
+Total features: 30
+Classes: ['malignant', 'benign']
+Training samples: 455
+Testing samples: 114
+
+FINAL MODEL COMPARISON
+        Model  Accuracy  Precision  Recall  F1 Score  Log Loss
+          SVM    0.9825     0.9812  0.9812    0.9812    0.0860
+Decision Tree    0.9386     0.9324  0.9365    0.9343    1.6559
+          KNN    0.9561     0.9551  0.9504    0.9526    0.4073
+  Naive Bayes    0.9386     0.9360  0.9315    0.9337    0.3713
+
+Best accuracy: SVM
+Best F1 score: SVM
+Lowest log loss: SVM
